@@ -24,7 +24,7 @@ global.APIKeys = { // APIKey nya disini
   'https://bx-hunter.herokuapp.com': 'Ikyy69',
   'https://hardianto.xyz': 'hardianto',
   'https://api.neoxr.eu.org': 'yntkts',
-  'https://api.chipa.xyz': 'pais',
+  'https://api.chipa.xyz': 'V1DFQVSDQ27J629Y5K65FJU0',
   'https://api.xteam.xyz': '4174b0fba23611d9',
   'https://api.zeks.me': 'apivinz',
 }

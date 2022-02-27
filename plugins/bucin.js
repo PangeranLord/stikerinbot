@@ -4,7 +4,6 @@ let handler = async (m, { conn, usedPrefix, command }) => {
 handler.help = ['bucin']
 handler.tags = ['quotes']
 handler.command = /^(bucin)$/i
-handler.limit = true
 handler.premium = true
 
 module.exports = handler

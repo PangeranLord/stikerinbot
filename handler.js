@@ -434,9 +434,9 @@ module.exports = {
         }
         break
       case 'promote':
-        text = (chat.sPromote || this.spromote || conn.spromote || '@user sekarang Admin')
+        text = (chat.sPromote || this.spromote || conn.spromote || '_*Ciee Kamu @user Sekarang Jadi Istriku😚*_')
       case 'demote':
-        if (!text) text = (chat.sDemote || this.sdemote || conn.sdemote || '@user sekarang bukan Admin')
+        if (!text) text = (chat.sDemote || this.sdemote || conn.sdemote || '_*Aku Sudah Ceraikan Kamu @user Sekarang Kamu Bukan Lagi Istriku😭*_')
         text = text.replace('@user', '@' + participants[0].split`@`[0])
         if (chat.detect) this.sendMessage(jid, text, MessageType.extendedText, {
           contextInfo: {

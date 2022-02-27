@@ -1,7 +1,7 @@
 let fs = require('fs')
 let chalk = require('chalk')
 
-global.owner = ['6283128734012', '6287755080455'] // Letakan nomor kamu disini
+global.owner = ['6287832147584', '6287832147584'] // Letakan nomor kamu disini
 
 global.APIs = { // API Prefix
   // nama: 'https://website'
@@ -19,23 +19,23 @@ global.APIs = { // API Prefix
 }
 global.APIKeys = { // APIKey nya disini
   // 'https://website': 'apikey'
-  'https://melcanz.com': 'trial',
+  'https://melcanz.com': 'fyVOgcJm',
   'https://api.reysekha.my.id': 'apirey',
   'https://bx-hunter.herokuapp.com': 'Ikyy69',
   'https://hardianto.xyz': 'hardianto',
   'https://api.neoxr.eu.org': 'yntkts',
   'https://api.chipa.xyz': 'pais',
-  'https://api.xteam.xyz': 'apikeymu',
+  'https://api.xteam.xyz': '4174b0fba23611d9',
   'https://api.zeks.me': 'apivinz',
 }
 
 // Sticker WM
-global.packname = 'arif️fb'
-global.author = 'amel'
+global.packname = 'ig:@pangerann21_'
+global.author = '©Pangeran'
 
-global.wm = '© ariffb & melcanz'
-global.wait = '_*tunggu sedang diproses...*_'
-global.eror = '_*Server Error*_'
+global.wm = '©Pangeran'
+global.wait = '_*Tunggu Sebentar, Sedang Lagi Di Ewe❗*_'
+global.eror = '_*Server Error Sayang❗*_'
 global.benar = '✅'
 global.salah = '❌'
 global.dikit = 'dikit lagi'

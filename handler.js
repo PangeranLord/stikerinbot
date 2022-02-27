@@ -104,13 +104,13 @@ module.exports = {
           antiBadword: true,
           antiLink: false,
           delete: true,
-          descUpdate: true,
+          descUpdate: false,
           download: true,
           expired: 0,
           getmsg: false,
-          read: true,
+          read: false,
           stiker: false,
-          viewonce: true,
+          viewonce: false,
         }
 
         let settings = global.db.data.settings[this.user.jid]
@@ -140,8 +140,8 @@ module.exports = {
           buggc: true,
           backupTime: 0,
           group: false,
-          jadibot: false,
-          nsfw: true,
+          jadibot: true,
+          nsfw: false,
           restrict: false,
           self: false,
           status: 0,
@@ -493,9 +493,9 @@ ketik *.on delete* untuk mematikan pesan ini
 
 global.dfail = (type, m, conn) => {
   let msg = {
-    rowner: 'Perintah ini hanya dapat digunakan oleh _*Pemilik Bot*_',
-    owner: 'Perintah ini hanya dapat digunakan oleh _*Pemilik Bot*_',
-    premium: 'Perintah ini hanya untuk pengguna _*Premium*_',
+    rowner: '_*Emng Lo Pemilik Bot nye Bego‼️*_',
+    owner: '_*Emng Lo Owner Bot nye Tolol‼️*_',
+    premium: '_*Khusus Istri Saya Saja‼️(PREMIUM)*_',
     group: 'Perintah ini hanya dapat digunakan di grup',
     private: 'Perintah ini hanya dapat digunakan di Chat Pribadi',
     admin: 'Perintah ini hanya untuk *Admin* grup',

@@ -25,13 +25,14 @@ let handler = async (m, { conn, usedPrefix, command }) => {
   finally {
     if (stiker) await conn.sendFile(m.chat, stiker, '', '', m, 0, { asSticker: true })
     else {
-      return conn.sendButton(m.chat, `Balas media dengan perintah *${usedPrefix + command}*`, '© stikerin', 'Aktifkan Stiker Otomatis', '.1 s', m)
+      return conn.sendButton(m.chat, `Balas media dengan perintah *${usedPrefix + command}*`, wm, 'Aktifkan Stiker Otomatis', '.1 s', m)
     }
   }
 }
 handler.help = ['sticker']
 handler.tags = ['sticker']
 handler.command = /^(s(t|k|tic?ker)?)$/i
+handler.premium = true
 
 module.exports = handler
 

@@ -31,6 +31,7 @@ Ketik ${usedPrefix}calo untuk bantuan
 handler.help = ['caklontong']
 handler.tags = ['game']
 handler.command = /^caklontong/i
+handler.premium = true
 
 handler.game = true
 

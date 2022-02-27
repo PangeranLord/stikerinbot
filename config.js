@@ -31,9 +31,9 @@ global.APIKeys = { // APIKey nya disini
 
 // Sticker WM
 global.packname = 'ig:@pangerann21_'
-global.author = '©Pangeran'
+global.author = '©Koko Pangeran'
 
-global.wm = '©Pangeran'
+global.wm = '©ᴷᴼᴷᴼ ᴾᴬᴺᴳᴱᴿᴬᴺ'
 global.wait = '_*Tunggu Sebentar, Sedang Lagi Di Ewe❗*_'
 global.eror = '_*Server Error Sayang❗*_'
 global.benar = '✅'

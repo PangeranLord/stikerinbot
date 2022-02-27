@@ -4,5 +4,6 @@ let handler = async (m, { conn }) => {
 handler.help = ['darkjoke']
 handler.tags = ['internet']
 handler.command = /^((drag|dark)joke)$/i
+handler.premium = true
 
 module.exports = handler

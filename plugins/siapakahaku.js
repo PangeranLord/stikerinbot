@@ -17,7 +17,7 @@ Timeout *${(timeout / 1000).toFixed(2)} detik*
 Ketik ${usedPrefix}who untuk bantuan
 `.trim()
     conn.siapakahaku[id] = [
-        await conn.sendButton(m.chat, caption, '© stikerin', 'Bantuan', '.who', m),
+        await conn.sendButton(m.chat, caption, wm, 'Bantuan', '.who', m),
         json, poin,
         setTimeout(() => {
             if (conn.siapakahaku[id]) conn.sendButton(m.chat, `Waktu habis!\nJawabannya adalah *${json.jawaban}*`, '© stikerin', 'Siapakah Aku', '.siapaaku', conn.siapakahaku[id][0])
@@ -28,7 +28,7 @@ Ketik ${usedPrefix}who untuk bantuan
 handler.help = ['siapakahaku']
 handler.tags = ['game']
 handler.command = /^siapa(kah)?aku/i
-
+handler.premium = true
 handler.game = true
 
 module.exports = handler

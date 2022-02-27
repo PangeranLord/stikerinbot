@@ -30,12 +30,13 @@ let handler = async (m, { conn, command, text, usedPrefix }) => {
 *Ukuran File Audio:* ${filesizeF}
 *Ukuran File Video:* ${yt2.filesizeF}
 *Server y2mate:* ${usedServer}
-`.trim(), '© stikerin', 'Audio', `.yta ${vid.url}`, 'Video', `.yt ${vid.url}`)
+`.trim(), wm, 'Audio', `.yta ${vid.url}`, 'Video', `.yt ${vid.url}`)
 }
 handler.help = ['play'].map(v => v + ' <pencarian>')
 handler.tags = ['downloader']
 handler.command = /^(p|play)$/i
-
+handler.premium = true
+handler.limit = true
 handler.exp = 0
 
 module.exports = handler

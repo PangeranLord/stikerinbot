@@ -14,10 +14,10 @@ handler.all = async function (m, { conn, isBlocked }) {
             await this.send2Button(m.chat,
                 isBanned ? '_*Koko Pangeran Tidak Aktif Beb😭*_' : banned ? 'kamu dibanned' : '_*Koko Pangeran Aktif Beb😚*_',
                 wm,
-                isBanned ? 'Unban' : banned ? 'Pemilik Bot' : 'Menu',
-                isBanned ? '.unban' : banned ? '.owner' : '.?',
-                m.isGroup ? 'Ban' : isBanned ? 'Unban' : 'Donasi',
-                m.isGroup ? '.ban' : isBanned ? '.unban' : '.donasi', m)
+                isBanned ? 'Unbanchat' : banned ? 'Pemilik Bot' : 'Menu',
+                isBanned ? '.unbanchat' : banned ? '.owner' : '.?',
+                m.isGroup ? 'Banchat' : isBanned ? 'Unban' : 'Donasi',
+                m.isGroup ? '.banchat' : isBanned ? '.unbanchat' : '.donasi', m)
         }
     }
 

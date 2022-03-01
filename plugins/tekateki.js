@@ -18,7 +18,7 @@ Ketik ${usedPrefix}tete untuk bantuan
 Bonus: ${poin} XP
 `.trim()
     conn.tekateki[id] = [
-        await conn.sendButton(m.chat, caption, '© stikerin', 'Bantuan', `.tete`, m),
+        await conn.sendButton(m.chat, caption, wm, 'Bantuan', `.tete`, m),
         json, poin,
         setTimeout(() => {
             if (conn.tekateki[id]) conn.sendButton(m.chat, `Waktu habis!\nJawabannya adalah *${json.jawaban}*`, '© stikerin', 'Teka Teki', `.tekateki`, conn.tekateki[id][0])
@@ -29,7 +29,7 @@ Bonus: ${poin} XP
 handler.help = ['tekateki']
 handler.tags = ['game']
 handler.command = /^tekateki/i
-
+handler.premium = true
 handler.game = true
 
 module.exports = handler

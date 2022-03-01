@@ -486,7 +486,7 @@ ketik *.on delete* untuk mematikan pesan ini
 
     ${desc} 
         `.trim()
-    this.sendButton(jid, caption, '© stikerin', 'Matikan', ',off desc')
+    this.sendButton(jid, caption, wm, 'Matikan', ',off desc')
 
   }
 }
@@ -498,7 +498,7 @@ global.dfail = (type, m, conn) => {
     premium: '_*Khusus Istri Saya Saja‼️(PREMIUM)*_',
     group: 'Perintah ini hanya dapat digunakan di grup',
     private: 'Perintah ini hanya dapat digunakan di Chat Pribadi',
-    admin: 'Perintah ini hanya untuk *Admin* grup',
+    admin: '_*Emng Lo Admin Group Sini Tod! Lo Tuh Babu Group Sini!*_',
     botAdmin: 'Jadikan bot sebagai *Admin* untuk menggunakan perintah ini',
     unreg: 'Silahkan daftar untuk menggunakan fitur ini dengan cara mengetik:\n\n*#daftar nama.umur*\n\nContoh: *#daftar Arif.19*',
     nsfw: 'NSFW tidak aktif'
